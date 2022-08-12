@@ -349,18 +349,3 @@ JOIN workers ON departments.manager_id = workers.id;
 --Average salary of an employee with rounding to 2 decimal places
 SELECT first_name, last_name, salary, (select round(avg(salary), 2) from workers) average
 FROM workers;
-
-
-
-
-
-
-		
-
-
-
-
-
-
-	
-
